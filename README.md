@@ -11,7 +11,7 @@ STEPS :
 3. Copy the obfuscated code then replace the content in the file "bydef_enc.py" with the obfuscated code which you copied, do not delete the "import subprocess" & "from subprocess import check_output" 
 
 
-4. Run "bydef_compile.py", wait for the PE ( .exe ) to be generated, when it's done, you can find the executable file inside the "dist/" folder.
+4. Run "bydef_compile.py", wait for the PE ( .exe ) to be generated, when it's done, you can find the executable file inside the "dist/" folder. ( this should be done on a Windows platform and not Unix ) 
 
 
 5. Send the .exe file to your target.
